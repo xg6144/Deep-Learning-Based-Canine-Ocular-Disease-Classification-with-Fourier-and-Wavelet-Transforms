@@ -1,0 +1,59 @@
+{
+    "overall_accuracy": 0.8565243356225739,
+    "class_accuracies": {
+        "Eyelid Tumor": 0.8462603878116344,
+        "Nuclear Sclerosis": 0.7791666666666667,
+        "Cataract": 0.8199419167473379,
+        "Ulcerative Keratitis": 0.9190106692531523,
+        "Epiphora": 0.8757807078417765
+    },
+    "class_f1_scores": {
+        "Eyelid Tumor": 0.7950553025374105,
+        "Nuclear Sclerosis": 0.7658703071672355,
+        "Cataract": 0.8251339503166099,
+        "Ulcerative Keratitis": 0.9369592088998764,
+        "Epiphora": 0.8915577534440127
+    },
+    "avg_f1_score": 0.842915304473029,
+    "roc_auc": 0.9818291575560263,
+    "confusion_matrix": [
+        [
+            611,
+            54,
+            29,
+            13,
+            15
+        ],
+        [
+            110,
+            1122,
+            74,
+            57,
+            77
+        ],
+        [
+            38,
+            109,
+            847,
+            13,
+            26
+        ],
+        [
+            35,
+            80,
+            42,
+            1895,
+            10
+        ],
+        [
+            21,
+            125,
+            28,
+            5,
+            1262
+        ]
+    ],
+    "avg_confidence_correct": 0.9596549868583679,
+    "avg_confidence_wrong": 0.7691745758056641,
+    "execution_time_seconds": 26.742753
+}
